@@ -1,0 +1,22 @@
+{
+  "name": "log-service",
+  "version": "1.0.0",
+  "description": "just log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "log",
+    "node.js"
+  ],
+  "author": "MnHung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "winston": "^3.0.0"
+  }
+}
